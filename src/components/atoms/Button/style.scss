@@ -1,0 +1,27 @@
+.not-active {
+  width: 123px;
+  height: 48px;
+  color: #9b9b9b;
+  border: 1px solid #9b9b9b;
+  filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+  background-color: white;
+}
+.active {
+  width: 123px;
+  height: 48px;
+  color: var(--text-neutral);
+  background: #db3022;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.05);
+}
+.border-opt_1 {
+    border-radius: 4px 0px 0px 4px;
+}
+.border-opt_2 {
+    border-radius: 0px 4px 4px 0px;
+}
+.login {
+  height: 48px;
+  color: var(--text-neutral);
+  background-color: var(--tuku-merah);
+  border-radius: 25px;
+}

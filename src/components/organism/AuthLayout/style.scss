@@ -1,0 +1,16 @@
+form {
+  width: 400px;
+}
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  form {
+    width: 350px;
+  }
+  #auth {
+    padding: 40px 0 40px 0;
+    box-sizing: content-box;
+  }
+}
